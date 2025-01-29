@@ -54,4 +54,8 @@ public class TransactionServiceImpl implements TransactionService {
                         .isAfter(time))
                 .toList();
     }
+
+    public List<TransactionRequestDto> getTransactionDtosList() {
+        return transactionDtosList;
+    }
 }

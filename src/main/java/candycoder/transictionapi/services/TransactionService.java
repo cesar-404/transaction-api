@@ -11,4 +11,6 @@ public interface TransactionService {
 
     List<TransactionRequestDto> getAllTransactions(Integer timeInterval);
 
+    List<TransactionRequestDto> getTransactionDtosList();
+
 }
