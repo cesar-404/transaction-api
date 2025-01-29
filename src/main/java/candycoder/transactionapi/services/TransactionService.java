@@ -1,6 +1,6 @@
-package candycoder.transictionapi.services;
+package candycoder.transactionapi.services;
 
-import candycoder.transictionapi.controllers.dtos.TransactionRequestDto;
+import candycoder.transactionapi.controllers.dtos.TransactionRequestDto;
 import java.util.List;
 
 public interface TransactionService {

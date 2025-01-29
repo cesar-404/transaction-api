@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>candycoder</groupId>
-    <artifactId>transiction-api</artifactId>
+    <artifactId>transaction-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>transiction-api</name>
     <description>transiction-api</description>

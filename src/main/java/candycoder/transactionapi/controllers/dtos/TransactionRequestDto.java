@@ -1,4 +1,4 @@
-package candycoder.transictionapi.controllers.dtos;
+package candycoder.transactionapi.controllers.dtos;
 
 import java.time.OffsetDateTime;
 

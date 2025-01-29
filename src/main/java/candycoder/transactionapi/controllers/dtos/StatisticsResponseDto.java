@@ -1,4 +1,4 @@
-package candycoder.transictionapi.controllers.dtos;
+package candycoder.transactionapi.controllers.dtos;
 
 public record StatisticsResponseDto(Long count,
                                     Double sum,

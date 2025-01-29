@@ -1,10 +1,10 @@
-package candycoder.transictionapi;
+package candycoder.transactionapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TransictionApiApplicationTests {
+class TransactionApiApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,4 +1,4 @@
-package candycoder.transictionapi.infra;
+package candycoder.transactionapi.infra;
 
 import io.micrometer.core.aop.TimedAspect;
 import io.micrometer.core.instrument.MeterRegistry;

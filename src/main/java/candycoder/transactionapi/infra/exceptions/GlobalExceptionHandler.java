@@ -1,4 +1,4 @@
-package candycoder.transictionapi.infra.exceptions;
+package candycoder.transactionapi.infra.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

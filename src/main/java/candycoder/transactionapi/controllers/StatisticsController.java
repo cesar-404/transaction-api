@@ -1,7 +1,7 @@
-package candycoder.transictionapi.controllers;
+package candycoder.transactionapi.controllers;
 
-import candycoder.transictionapi.controllers.dtos.StatisticsResponseDto;
-import candycoder.transictionapi.services.StatisticsService;
+import candycoder.transactionapi.controllers.dtos.StatisticsResponseDto;
+import candycoder.transactionapi.services.StatisticsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

@@ -1,4 +1,4 @@
-package candycoder.transictionapi.infra.exceptions;
+package candycoder.transactionapi.infra.exceptions;
 
 public class UnprocessableEntity extends RuntimeException {
     public UnprocessableEntity(String message) {

@@ -1,6 +1,6 @@
-package candycoder.transictionapi.services;
+package candycoder.transactionapi.services;
 
-import candycoder.transictionapi.controllers.dtos.StatisticsResponseDto;
+import candycoder.transactionapi.controllers.dtos.StatisticsResponseDto;
 
 public interface StatisticsService {
 

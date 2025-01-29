@@ -1,8 +1,8 @@
-package candycoder.transictionapi.services.impl;
+package candycoder.transactionapi.services.impl;
 
-import candycoder.transictionapi.controllers.dtos.StatisticsResponseDto;
-import candycoder.transictionapi.controllers.dtos.TransactionRequestDto;
-import candycoder.transictionapi.services.TransactionService;
+import candycoder.transactionapi.controllers.dtos.StatisticsResponseDto;
+import candycoder.transactionapi.controllers.dtos.TransactionRequestDto;
+import candycoder.transactionapi.services.TransactionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
