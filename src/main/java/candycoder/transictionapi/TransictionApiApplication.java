@@ -1,0 +1,13 @@
+package candycoder.transictionapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TransictionApiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TransictionApiApplication.class, args);
+    }
+
+}
