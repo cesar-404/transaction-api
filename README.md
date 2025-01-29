@@ -1,14 +1,24 @@
+<div align="center">
+  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</div>
+
+
+
+
 # Transaction API
-## Overview
+## 🔍 Overview
 The Transaction API is an application built with Spring Boot that provides features to manage transactions. It allows creating, deleting and get statistics of transactions in a simple and efficient way, with easy deployment using Docker.
-## Technologies Used
+## 🛠️ Technologies Used
  - **Java 21**
  - **Spring Boot**: Framework used for building the API.
  - **Docker**: Containerization of the application.
  - **Slf4j**: For logs.
  - **Spring Actuator**: For health check and performance statistics.
  - **Springdoc OpenApi**: To build the API documentation.
-## Build and Run
+ - **JUnit5**: For unit tests.
+## 🚀 Build and Run
 Before you begin, make sure you have **Docker** installed.
 ### Step 1: Clone the Repository
 Clone the repository to your local machine:
@@ -41,10 +51,22 @@ Once you're done testing, you can stop the container.
 docker ps
 docker stop CONTAINER_ID
 ```
-## API Endpoints
+## 🌐 API Endpoints
 #### POST /transactions
 Add a transaction.
+![Post Swagger](https://github.com/cesar-404/transaction-api/raw/main/images/post.png)
 #### DELETE /transactions
 Clear transactions.
+![Delete Swagger](https://github.com/cesar-404/transaction-api/raw/main/images/delete.png)
 #### GET /statistics
 Get the transaction statistics within the indicated interval (default 60 seconds).
+![Get Swagger](https://github.com/cesar-404/transaction-api/raw/main/images/get.png)
+## ✅ Tests
+The project uses JUnit for unit testing. To run the tests, simply execute:
+```bash
+mvn test
+```
+<br><br><br>
+<p align="center">
+ Made with ☕ and 🚬 by <strong>César Oliveira<strong>
+</p>
