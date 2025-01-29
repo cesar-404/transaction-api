@@ -4,6 +4,7 @@ import candycoder.transictionapi.controllers.dtos.StatisticsResponseDto;
 import candycoder.transictionapi.controllers.dtos.TransactionRequestDto;
 import candycoder.transictionapi.services.StatisticsService;
 import candycoder.transictionapi.services.TransactionService;
+import io.micrometer.core.annotation.Timed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -21,6 +22,7 @@ public class StatisticsServiceImpl implements StatisticsService {
     }
 
     @Override
+    @Timed(value = "statistics.time.execution")
     public StatisticsResponseDto calculateTransactionStatistics(Integer searchInterval) {
         log.info("Starting to calculate transaction statistics for the last {} seconds.", searchInterval);
         List<TransactionRequestDto> transactions = transactionService.getAllTransactions(searchInterval);
