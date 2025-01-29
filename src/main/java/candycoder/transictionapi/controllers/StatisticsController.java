@@ -2,6 +2,9 @@ package candycoder.transictionapi.controllers;
 
 import candycoder.transictionapi.controllers.dtos.StatisticsResponseDto;
 import candycoder.transictionapi.services.StatisticsService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,6 +22,10 @@ public class StatisticsController {
         this.statisticsService = statisticsService;
     }
 
+    @Operation(description = "Get the transaction statistics within the indicated interval (default 60 seconds).")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Statistics returned successfully."),
+    })
     @GetMapping
     public ResponseEntity<StatisticsResponseDto> getStatistics(@RequestParam(value = "searchInterval",
             required = false,
